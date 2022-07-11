@@ -1,0 +1,48 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.box {
+display: flex;
+flex-direction: row-reverse;
+background-color: #f9fbfc;
+margin: 0px auto ;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+h2 {
+     font-size: 32px;
+}
+
+.h3 {
+    font-size: 202px;
+}
+
+
+
+.general_cv {
+    background-color: #f9fbfc;
+    color: darkblue;
+    padding: 40px;
+}
+ 
+.link {
+    color: rgb(43, 74, 250);
+}
+
+.link_violet:hover {
+    color: rgb(148, 6, 204);
+    transition: 500ms;
+}
+
+.side_bar {
+    background-color: rgb(175, 206, 247);
+    color: azure;
+    padding: 40px;
+}
+
