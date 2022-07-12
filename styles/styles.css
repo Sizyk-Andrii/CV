@@ -1,48 +1,166 @@
+
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+     font-family: 'Montserrat', sans-serif;
+     background-color: #cfdde4;
+     font-weight: 400;
 }
 
 .box {
 display: flex;
 flex-direction: row-reverse;
-background-color: #f9fbfc;
-margin: 0px auto ;
+width: 1200px;
+margin: 0 auto;
+box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+.about {
+    margin-bottom: 40px;
+}
+
+.about_name {
+    font-style: normal;
     font-weight: 700;
     font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 24px;
 }
 
-h2 {
-     font-size: 32px;
+.about_position {
+    width: 450px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 17px;
+    margin-bottom: 20px;
 }
 
-.h3 {
-    font-size: 202px;
+.life_credo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 400px;
+} 
+
+.credo_bracket {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
 }
-
-
 
 .general_cv {
     background-color: #f9fbfc;
     color: darkblue;
-    padding: 40px;
+    padding: 55px 90px;
 }
  
+.des_ex {
+    width: 550px;
+    padding: 0px;
+    margin-left: 15px;
+}
+
+.des_li {
+    padding-left: 15px;
+    margin-left: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.com {
+    margin-bottom: 50px;
+}
+
+.company_item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.companys {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.company_braket {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.company_title {
+    padding: 0px;
+    margin-left: 15px;
+}
+
+.position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #302e2e;
+    margin-bottom: 10px;
+}
+
 .link {
     color: rgb(43, 74, 250);
+    margin-left: 10px;
+}
+
+.link_t {
+    margin-left: 25px;
 }
 
 .link_violet:hover {
-    color: rgb(148, 6, 204);
+    /* color: rgb(148, 6, 204); */
+    color: rgb(245, 121, 20);
     transition: 500ms;
+
 }
 
 .side_bar {
     background-color: rgb(175, 206, 247);
     color: azure;
-    padding: 40px;
+    /* padding: 40px; */
+    padding-top: 40px;
 }
 
+.link_botton {
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+
+.skills_ul {
+    color: darkblue;
+}
+
+.skills_ul:hover {
+    color: rgb(245, 121, 20);
+    transition: 500ms;
+}
