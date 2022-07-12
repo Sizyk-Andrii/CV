@@ -127,6 +127,10 @@ box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
 }
 
+.we { 
+    margin-bottom: 70px;
+}
+
 .link {
     color: rgb(43, 74, 250);
     margin-left: 10px;
@@ -140,7 +144,16 @@ box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     /* color: rgb(148, 6, 204); */
     color: rgb(245, 121, 20);
     transition: 500ms;
+}
 
+.teleg {
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 20px;
+    margin-bottom: 10px;
 }
 
 .side_bar {
